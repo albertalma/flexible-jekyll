@@ -8,7 +8,7 @@ group :jekyll_plugins do
   gem "jemoji"
 end
 
-gem 'github-pages', group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
