@@ -1,3 +1,5 @@
+remote_theme: artemsheludko/flexible-jekyll
+
 title: Albert Almà projects
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -16,15 +18,14 @@ social-github: albertalma # add your Github handle
 social-linkedin: albertalmaserrano # add your Linkedin handle
 social-email: albert.alse@gmail.com # add your Email address
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
-
 # Tracker
 analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
