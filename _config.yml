@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/projects" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Albert Almà # add your name
@@ -31,4 +32,4 @@ plugins:
 paginate: 8
 paginate_path: "/page/:num"
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "vendor"]
