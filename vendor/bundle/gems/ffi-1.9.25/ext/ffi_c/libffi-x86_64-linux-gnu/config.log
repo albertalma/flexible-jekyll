@@ -389,700 +389,14 @@ configure:9734: gcc -c   -fPIC -DPIC -DPIC conftest.c >&5
 configure:9738: $? = 0
 configure:9751: result: yes
 configure:9780: checking if gcc static flag -static works
-configure:9808: result: yes
-configure:9823: checking if gcc supports -c -o file.o
-configure:9844: gcc -c   -o out/conftest2.o conftest.c >&5
-configure:9848: $? = 0
-configure:9870: result: yes
-configure:9878: checking if gcc supports -c -o file.o
-configure:9925: result: yes
-configure:9958: checking whether the gcc linker (/usr/bin/x86_64-linux-gnu-ld -m elf_x86_64) supports shared libraries
-configure:11221: result: yes
-configure:11258: checking whether -lc should be explicitly linked in
-configure:11266: gcc -c   conftest.c >&5
-configure:11269: $? = 0
-configure:11284: gcc -shared  -fPIC -DPIC conftest.o  -v -Wl,-soname -Wl,conftest -o conftest 2\>\&1 \| /bin/grep  -lc  \>/dev/null 2\>\&1
-configure:11287: $? = 0
-configure:11301: result: no
-configure:11461: checking dynamic linker characteristics
-configure:12042: gcc -o conftest    -Wl,-rpath -Wl,/foo conftest.c  >&5
-configure:12042: $? = 0
-configure:12291: result: GNU/Linux ld.so
-configure:12413: checking how to hardcode library paths into programs
-configure:12438: result: immediate
-configure:12986: checking whether stripping libraries is possible
-configure:12991: result: yes
-configure:13026: checking if libtool supports shared libraries
-configure:13028: result: yes
-configure:13031: checking whether to build shared libraries
-configure:13056: result: yes
-configure:13059: checking whether to build static libraries
-configure:13063: result: no
-configure:13086: checking how to run the C++ preprocessor
-configure:13113: g++ -E  conftest.cpp
-configure:13113: $? = 0
-configure:13127: g++ -E  conftest.cpp
-conftest.cpp:23:10: fatal error: ac_nonexistent.h: No such file or directory
- #include <ac_nonexistent.h>
-          ^~~~~~~~~~~~~~~~~~
-compilation terminated.
-configure:13127: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| /* end confdefs.h.  */
-| #include <ac_nonexistent.h>
-configure:13152: result: g++ -E
-configure:13172: g++ -E  conftest.cpp
-configure:13172: $? = 0
-configure:13186: g++ -E  conftest.cpp
-conftest.cpp:23:10: fatal error: ac_nonexistent.h: No such file or directory
- #include <ac_nonexistent.h>
-          ^~~~~~~~~~~~~~~~~~
-compilation terminated.
-configure:13186: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| /* end confdefs.h.  */
-| #include <ac_nonexistent.h>
-configure:13348: checking for ld used by g++
-configure:13415: result: /usr/bin/x86_64-linux-gnu-ld -m elf_x86_64
-configure:13422: checking if the linker (/usr/bin/x86_64-linux-gnu-ld -m elf_x86_64) is GNU ld
-configure:13437: result: yes
-configure:13492: checking whether the g++ linker (/usr/bin/x86_64-linux-gnu-ld -m elf_x86_64) supports shared libraries
-configure:14565: result: yes
-configure:14601: g++ -c -g -O2  conftest.cpp >&5
-configure:14604: $? = 0
-configure:15085: checking for g++ option to produce PIC
-configure:15092: result: -fPIC -DPIC
-configure:15100: checking if g++ PIC flag -fPIC -DPIC works
-configure:15118: g++ -c -g -O2  -fPIC -DPIC -DPIC conftest.cpp >&5
-configure:15122: $? = 0
-configure:15135: result: yes
-configure:15158: checking if g++ static flag -static works
-configure:15186: result: yes
-configure:15198: checking if g++ supports -c -o file.o
-configure:15219: g++ -c -g -O2  -o out/conftest2.o conftest.cpp >&5
-configure:15223: $? = 0
-configure:15245: result: yes
-configure:15250: checking if g++ supports -c -o file.o
-configure:15297: result: yes
-configure:15327: checking whether the g++ linker (/usr/bin/x86_64-linux-gnu-ld -m elf_x86_64) supports shared libraries
-configure:15370: result: yes
-configure:15511: checking dynamic linker characteristics
-configure:16268: result: GNU/Linux ld.so
-configure:16333: checking how to hardcode library paths into programs
-configure:16358: result: immediate
-configure:16426: checking size of size_t
-configure:16431: gcc -o conftest    conftest.c  >&5
-configure:16431: $? = 0
-configure:16431: ./conftest
-configure:16431: $? = 0
-configure:16445: result: 8
-configure:16456: checking for C compiler vendor
-configure:16501: gcc -c   conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:30:9: error: 'thisisanerror' undeclared (first use in this function)
-         thisisanerror;
-         ^~~~~~~~~~~~~
-conftest.c:30:9: note: each undeclared identifier is reported only once for each function it appears in
-configure:16501: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| #define SIZEOF_SIZE_T 8
-| /* end confdefs.h.  */
-| 
-| int
-| main ()
-| {
-| 
-|       #if !(defined(__ICC) || defined(__ECC) || defined(__INTEL_COMPILER))
-|         thisisanerror;
-|       #endif
-| 
-|   ;
-|   return 0;
-| }
-configure:16501: gcc -c   conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:30:9: error: 'thisisanerror' undeclared (first use in this function)
-         thisisanerror;
-         ^~~~~~~~~~~~~
-conftest.c:30:9: note: each undeclared identifier is reported only once for each function it appears in
-configure:16501: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| #define SIZEOF_SIZE_T 8
-| /* end confdefs.h.  */
-| 
-| int
-| main ()
-| {
-| 
-|       #if !(defined(__xlc__) || defined(__xlC__) || defined(__IBMC__) || defined(__IBMCPP__))
-|         thisisanerror;
-|       #endif
-| 
-|   ;
-|   return 0;
-| }
-configure:16501: gcc -c   conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:30:9: error: 'thisisanerror' undeclared (first use in this function)
-         thisisanerror;
-         ^~~~~~~~~~~~~
-conftest.c:30:9: note: each undeclared identifier is reported only once for each function it appears in
-configure:16501: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| #define SIZEOF_SIZE_T 8
-| /* end confdefs.h.  */
-| 
-| int
-| main ()
-| {
-| 
-|       #if !(defined(__PATHCC__) || defined(__PATHSCALE__))
-|         thisisanerror;
-|       #endif
-| 
-|   ;
-|   return 0;
-| }
-configure:16501: gcc -c   conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:30:9: error: 'thisisanerror' undeclared (first use in this function)
-         thisisanerror;
-         ^~~~~~~~~~~~~
-conftest.c:30:9: note: each undeclared identifier is reported only once for each function it appears in
-configure:16501: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| #define SIZEOF_SIZE_T 8
-| /* end confdefs.h.  */
-| 
-| int
-| main ()
-| {
-| 
-|       #if !(defined(__clang__))
-|         thisisanerror;
-|       #endif
-| 
-|   ;
-|   return 0;
-| }
-configure:16501: gcc -c   conftest.c >&5
-configure:16501: $? = 0
-configure:16509: result: gnu
-configure:17335: : CFLAGS already contains 
-configure:17338: $? = 0
-configure:17360: checking CFLAGS for maximum warnings
-configure:17380: gcc -c  -warn all  -warn all  conftest.c >&5
-gcc: error: all: No such file or directory
-gcc: error: all: No such file or directory
-gcc: error: unrecognized command line option '-warn'; did you mean '--warn-'?
-gcc: error: unrecognized command line option '-warn'; did you mean '--warn-'?
-configure:17380: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| #define SIZEOF_SIZE_T 8
-| /* end confdefs.h.  */
-| 
-| int
-| main ()
-| {
-| 
-|   ;
-|   return 0;
-| }
-configure:17380: gcc -c  -pedantic  -Wall  conftest.c >&5
-configure:17380: $? = 0
-configure:17388: result: -Wall
-configure:17404: : CFLAGS="$CFLAGS $ac_cv_cflags_warn_all"
-configure:17407: $? = 0
-configure:17437: checking whether to enable maintainer-specific portions of Makefiles
-configure:17446: result: no
-configure:17462: checking sys/mman.h usability
-configure:17462: gcc -c  -Wall -fexceptions  conftest.c >&5
-configure:17462: $? = 0
-configure:17462: result: yes
-configure:17462: checking sys/mman.h presence
-configure:17462: gcc -E  conftest.c
-configure:17462: $? = 0
-configure:17462: result: yes
-configure:17462: checking for sys/mman.h
-configure:17462: result: yes
-configure:17475: checking for mmap
-configure:17475: gcc -o conftest  -Wall -fexceptions   conftest.c  >&5
-configure:17475: $? = 0
-configure:17475: result: yes
-configure:17475: checking for mkostemp
-configure:17475: gcc -o conftest  -Wall -fexceptions   conftest.c  >&5
-configure:17475: $? = 0
-configure:17475: result: yes
-configure:17485: checking for sys/mman.h
-configure:17485: result: yes
-configure:17493: checking for mmap
-configure:17493: result: yes
-configure:17506: checking whether read-only mmap of a plain file works
-configure:17523: result: yes
-configure:17525: checking whether mmap from /dev/zero works
-configure:17547: result: yes
-configure:17551: checking for MAP_ANON(YMOUS)
-configure:17574: gcc -c  -Wall -fexceptions  conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:38:5: warning: unused variable 'n' [-Wunused-variable]
- int n = MAP_ANONYMOUS;
-     ^
-configure:17574: $? = 0
-configure:17581: result: yes
-configure:17587: checking whether mmap with MAP_ANON(YMOUS) works
-configure:17604: result: yes
-configure:17647: checking for ANSI C header files
-configure:17751: result: yes
-configure:17761: checking for memcpy
-configure:17761: gcc -o conftest  -Wall -fexceptions   conftest.c  >&5
-conftest.c:54:6: warning: conflicting types for built-in function 'memcpy' [-Wbuiltin-declaration-mismatch]
- char memcpy ();
-      ^~~~~~
-configure:17761: $? = 0
-configure:17761: result: yes
-configure:17770: checking for size_t
-configure:17770: gcc -c  -Wall -fexceptions  conftest.c >&5
-configure:17770: $? = 0
-configure:17770: gcc -c  -Wall -fexceptions  conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:68:21: error: expected expression before ')' token
- if (sizeof ((size_t)))
-                     ^
-configure:17770: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| #define SIZEOF_SIZE_T 8
-| #define HAVE_SYS_MMAN_H 1
-| #define HAVE_MMAP 1
-| #define HAVE_MKOSTEMP 1
-| #define HAVE_MMAP_FILE 1
-| #define HAVE_MMAP_DEV_ZERO 1
-| #define HAVE_MMAP_ANON 1
-| #define STDC_HEADERS 1
-| #define HAVE_MEMCPY 1
-| /* end confdefs.h.  */
-| #include <stdio.h>
-| #ifdef HAVE_SYS_TYPES_H
-| # include <sys/types.h>
-| #endif
-| #ifdef HAVE_SYS_STAT_H
-| # include <sys/stat.h>
-| #endif
-| #ifdef STDC_HEADERS
-| # include <stdlib.h>
-| # include <stddef.h>
-| #else
-| # ifdef HAVE_STDLIB_H
-| #  include <stdlib.h>
-| # endif
-| #endif
-| #ifdef HAVE_STRING_H
-| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
-| #  include <memory.h>
-| # endif
-| # include <string.h>
-| #endif
-| #ifdef HAVE_STRINGS_H
-| # include <strings.h>
-| #endif
-| #ifdef HAVE_INTTYPES_H
-| # include <inttypes.h>
-| #endif
-| #ifdef HAVE_STDINT_H
-| # include <stdint.h>
-| #endif
-| #ifdef HAVE_UNISTD_H
-| # include <unistd.h>
-| #endif
-| int
-| main ()
-| {
-| if (sizeof ((size_t)))
-| 	    return 0;
-|   ;
-|   return 0;
-| }
-configure:17770: result: yes
-configure:17783: checking for working alloca.h
-configure:17800: gcc -o conftest  -Wall -fexceptions   conftest.c  >&5
-configure:17800: $? = 0
-configure:17808: result: yes
-configure:17816: checking for alloca
-configure:17853: gcc -o conftest  -Wall -fexceptions   conftest.c  >&5
-configure:17853: $? = 0
-configure:17861: result: yes
-configure:17972: checking size of double
-configure:17977: gcc -o conftest  -Wall -fexceptions   conftest.c  >&5
-configure:17977: $? = 0
-configure:17977: ./conftest
-configure:17977: $? = 0
-configure:17991: result: 8
-configure:18005: checking size of long double
-configure:18010: gcc -o conftest  -Wall -fexceptions   conftest.c  >&5
-configure:18010: $? = 0
-configure:18010: ./conftest
-configure:18010: $? = 0
-configure:18024: result: 16
-configure:18057: checking whether byte ordering is bigendian
-configure:18072: gcc -c  -Wall -fexceptions  conftest.c >&5
-conftest.c:38:9: error: unknown type name 'not'
-         not a universal capable compiler
-         ^~~
-conftest.c:38:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'universal'
-         not a universal capable compiler
-               ^~~~~~~~~
-conftest.c:38:15: error: unknown type name 'universal'
-configure:18072: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| #define SIZEOF_SIZE_T 8
-| #define HAVE_SYS_MMAN_H 1
-| #define HAVE_MMAP 1
-| #define HAVE_MKOSTEMP 1
-| #define HAVE_MMAP_FILE 1
-| #define HAVE_MMAP_DEV_ZERO 1
-| #define HAVE_MMAP_ANON 1
-| #define STDC_HEADERS 1
-| #define HAVE_MEMCPY 1
-| #define HAVE_ALLOCA_H 1
-| #define HAVE_ALLOCA 1
-| #define SIZEOF_DOUBLE 8
-| #define SIZEOF_LONG_DOUBLE 16
-| #define HAVE_LONG_DOUBLE 1
-| /* end confdefs.h.  */
-| #ifndef __APPLE_CC__
-| 	       not a universal capable compiler
-| 	     #endif
-| 	     typedef int dummy;
-| 
-configure:18117: gcc -c  -Wall -fexceptions  conftest.c >&5
-configure:18117: $? = 0
-configure:18135: gcc -c  -Wall -fexceptions  conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:44:4: error: unknown type name 'not'; did you mean 'ino_t'?
-    not big endian
-    ^~~
-    ino_t
-conftest.c:44:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'endian'
-    not big endian
-            ^~~~~~
-configure:18135: $? = 1
-configure: failed program was:
-| /* confdefs.h */
-| #define PACKAGE_NAME "libffi"
-| #define PACKAGE_TARNAME "libffi"
-| #define PACKAGE_VERSION "3.99999"
-| #define PACKAGE_STRING "libffi 3.99999"
-| #define PACKAGE_BUGREPORT "http://github.com/libffi/libffi/issues"
-| #define PACKAGE_URL ""
-| #define PACKAGE "libffi"
-| #define VERSION "3.99999"
-| #define STDC_HEADERS 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_DLFCN_H 1
-| #define LT_OBJDIR ".libs/"
-| #define SIZEOF_SIZE_T 8
-| #define HAVE_SYS_MMAN_H 1
-| #define HAVE_MMAP 1
-| #define HAVE_MKOSTEMP 1
-| #define HAVE_MMAP_FILE 1
-| #define HAVE_MMAP_DEV_ZERO 1
-| #define HAVE_MMAP_ANON 1
-| #define STDC_HEADERS 1
-| #define HAVE_MEMCPY 1
-| #define HAVE_ALLOCA_H 1
-| #define HAVE_ALLOCA 1
-| #define SIZEOF_DOUBLE 8
-| #define SIZEOF_LONG_DOUBLE 16
-| #define HAVE_LONG_DOUBLE 1
-| /* end confdefs.h.  */
-| #include <sys/types.h>
-| 		#include <sys/param.h>
-| 
-| int
-| main ()
-| {
-| #if BYTE_ORDER != BIG_ENDIAN
-| 		 not big endian
-| 		#endif
-| 
-|   ;
-|   return 0;
-| }
-configure:18263: result: no
-configure:18282: checking assembler .cfi pseudo-op support
-configure:18300: gcc -c  -Wall -fexceptions  conftest.c >&5
-configure:18300: $? = 0
-configure:18308: result: yes
-configure:18395: checking assembler supports pc related relocs
-configure:18408: result: yes
-configure:18454: checking for _ prefix in compiled symbols
-configure:18464: gcc -c  -Wall -fexceptions  conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:2:12: warning: statement with no effect [-Wunused-value]
- int main(){nm_test_func;return 0;}
-            ^~~~~~~~~~~~
-configure:18467: $? = 0
-configure:18471: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
-configure:18474: $? = 0
-configure:18496: result: no
-configure:18532: checking toolchain supports unwind section type
-configure:18561: result: yes
-configure:18571: checking whether .eh_frame section should be read-only
-configure:18593: result: yes
-configure:18608: checking for __attribute__((visibility("hidden")))
-configure:18617: gcc -Werror -S conftest.c -o conftest.s 1>&5
-configure:18620: $? = 0
-configure:18629: result: yes
-configure:18768: checking for ld used by gcc
-configure:18835: result: /usr/bin/x86_64-linux-gnu-ld
-configure:18842: checking if the linker (/usr/bin/x86_64-linux-gnu-ld) is GNU ld
-configure:18857: result: yes
-configure:19031: checking for shared libgcc
-configure:19046: gcc -o conftest  -lgcc_s   conftest.c  >&5
-configure:19046: $? = 0
-configure:19084: result: yes
-configure:19170: versioning on shared library symbols is gnu
-configure:19294: checking that generated files are newer than configure
-configure:19300: result: done
-configure:19368: creating ./config.status
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by libffi config.status 3.99999, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status 
-
-on LAPTOP-FU45BOA7
-
-config.status:1234: creating include/Makefile
-config.status:1234: creating include/ffi.h
-config.status:1234: creating Makefile
-config.status:1234: creating testsuite/Makefile
-config.status:1234: creating man/Makefile
-config.status:1234: creating doc/Makefile
-config.status:1234: creating libffi.pc
-config.status:1234: creating fficonfig.h
-config.status:1460: linking /mnt/c/Users/Albert/Documents/workspace/flexible-jekyll/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/src/x86/ffitarget.h to include/ffitarget.h
-config.status:1479: executing buildir commands
-config.status:1492: skipping top_srcdir/Makefile - not created
-config.status:1479: executing depfiles commands
-config.status:1479: executing libtool commands
-config.status:1479: executing include commands
-config.status:1479: executing src commands
 
 ## ---------------- ##
 ## Cache variables. ##
 ## ---------------- ##
 
 ac_cv_build=x86_64-pc-linux-gnu
-ac_cv_c_bigendian=no
 ac_cv_c_compiler_gnu=yes
-ac_cv_cflags_warn_all=-Wall
 ac_cv_cxx_compiler_gnu=yes
-ac_cv_decl_map_anon=yes
 ac_cv_env_CCASFLAGS_set=
 ac_cv_env_CCASFLAGS_value=
 ac_cv_env_CCAS_set=
@@ -1101,13 +415,6 @@ ac_cv_env_host_alias_set=set
 ac_cv_env_host_alias_value=
 ac_cv_env_target_alias_set=
 ac_cv_env_target_alias_value=
-ac_cv_func_alloca_works=yes
-ac_cv_func_memcpy=yes
-ac_cv_func_mkostemp=yes
-ac_cv_func_mmap=yes
-ac_cv_func_mmap_anon=yes
-ac_cv_func_mmap_dev_zero=yes
-ac_cv_func_mmap_file=yes
 ac_cv_header_dlfcn_h=yes
 ac_cv_header_inttypes_h=yes
 ac_cv_header_memory_h=yes
@@ -1116,7 +423,6 @@ ac_cv_header_stdint_h=yes
 ac_cv_header_stdlib_h=yes
 ac_cv_header_string_h=yes
 ac_cv_header_strings_h=yes
-ac_cv_header_sys_mman_h=yes
 ac_cv_header_sys_stat_h=yes
 ac_cv_header_sys_types_h=yes
 ac_cv_header_unistd_h=yes
@@ -1132,7 +438,6 @@ ac_cv_path_lt_DD=/bin/dd
 ac_cv_path_mkdir=/bin/mkdir
 ac_cv_prog_AWK=gawk
 ac_cv_prog_CPP='gcc -E'
-ac_cv_prog_CXXCPP='g++ -E'
 ac_cv_prog_ac_ct_AR=ar
 ac_cv_prog_ac_ct_CC=gcc
 ac_cv_prog_ac_ct_CXX=g++
@@ -1144,25 +449,13 @@ ac_cv_prog_cc_c89=
 ac_cv_prog_cc_g=yes
 ac_cv_prog_cxx_g=yes
 ac_cv_prog_make_make_set=yes
-ac_cv_sizeof_double=8
-ac_cv_sizeof_long_double=16
-ac_cv_sizeof_size_t=8
 ac_cv_target=x86_64-pc-linux-gnu
-ac_cv_type_size_t=yes
-ac_cv_working_alloca_h=yes
 am_cv_CCAS_dependencies_compiler_type=none
 am_cv_CC_dependencies_compiler_type=none
 am_cv_CXX_dependencies_compiler_type=none
 am_cv_make_support_nested_variables=yes
 am_cv_prog_cc_c_o=yes
-ax_cv_c_compiler_vendor=gnu
-gcc_cv_as_cfi_pseudo_op=yes
-libffi_cv_as_x86_64_unwind_section_type=yes
-libffi_cv_as_x86_pcrel=yes
-libffi_cv_hidden_visibility_attribute=yes
-libffi_cv_ro_eh_frame=yes
 lt_cv_ar_at_file=@
-lt_cv_archive_cmds_need_lc=no
 lt_cv_deplibs_check_method=pass_all
 lt_cv_file_magic_cmd='$MAGIC_CMD'
 lt_cv_file_magic_test_file=
@@ -1170,29 +463,20 @@ lt_cv_ld_reload_flag=-r
 lt_cv_nm_interface='BSD nm'
 lt_cv_objdir=.libs
 lt_cv_path_LD=/usr/bin/x86_64-linux-gnu-ld
-lt_cv_path_LDCXX='/usr/bin/x86_64-linux-gnu-ld -m elf_x86_64'
 lt_cv_path_NM='/usr/bin/nm -B'
 lt_cv_path_mainfest_tool=no
-lt_cv_prog_compiler_c_o=yes
-lt_cv_prog_compiler_c_o_CXX=yes
 lt_cv_prog_compiler_pic='-fPIC -DPIC'
-lt_cv_prog_compiler_pic_CXX='-fPIC -DPIC'
 lt_cv_prog_compiler_pic_works=yes
-lt_cv_prog_compiler_pic_works_CXX=yes
 lt_cv_prog_compiler_rtti_exceptions=no
-lt_cv_prog_compiler_static_works=yes
-lt_cv_prog_compiler_static_works_CXX=yes
+lt_cv_prog_compiler_static_works=no
 lt_cv_prog_gnu_ld=yes
-lt_cv_prog_gnu_ldcxx=yes
 lt_cv_sharedlib_from_linklib_cmd='printf %s\n'
-lt_cv_shlibpath_overrides_runpath=yes
 lt_cv_sys_global_symbol_pipe='sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'' | sed '\''/ __gnu_lto/d'\'''
 lt_cv_sys_global_symbol_to_c_name_address='sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"\1", (void *) \&\1},/p'\'''
 lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(lib.*\)$/  {"\1", (void *) \&\1},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"lib\1", (void *) \&\1},/p'\'''
 lt_cv_sys_global_symbol_to_cdecl='sed -n -e '\''s/^T .* \(.*\)$/extern int \1();/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/extern char \1;/p'\'''
 lt_cv_sys_global_symbol_to_import=
 lt_cv_sys_max_cmd_len=1572864
-lt_cv_sys_symbol_underscore=no
 lt_cv_to_host_file_cmd=func_convert_file_noop
 lt_cv_to_tool_file_cmd=func_convert_file_noop
 lt_cv_truncate_bin='/bin/dd bs=4096 count=1'
@@ -1219,21 +503,21 @@ AUTOHEADER='${SHELL} /mnt/c/Users/Albert/Documents/workspace/flexible-jekyll/ven
 AUTOMAKE='${SHELL} /mnt/c/Users/Albert/Documents/workspace/flexible-jekyll/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing automake-1.15'
 AWK='gawk'
 BUILD_DOCS_FALSE=''
-BUILD_DOCS_TRUE='#'
+BUILD_DOCS_TRUE=''
 CC='gcc'
 CCAS='gcc'
 CCASDEPMODE='depmode=none'
 CCASFLAGS=''
 CCDEPMODE='depmode=none'
-CFLAGS=' -Wall -fexceptions'
+CFLAGS=''
 CPP='gcc -E'
 CPPFLAGS=''
 CXX='g++'
-CXXCPP='g++ -E'
+CXXCPP=''
 CXXDEPMODE='depmode=none'
 CXXFLAGS='-g -O2'
 CYGPATH_W='echo'
-DEFS='-DHAVE_CONFIG_H'
+DEFS=''
 DEPDIR='.deps'
 DLLTOOL='false'
 DSYMUTIL=''
@@ -1244,25 +528,25 @@ ECHO_T=''
 EGREP='/bin/grep -E'
 EXEEXT=''
 FFI_DEBUG_FALSE=''
-FFI_DEBUG_TRUE='#'
-FFI_EXEC_TRAMPOLINE_TABLE='0'
+FFI_DEBUG_TRUE=''
+FFI_EXEC_TRAMPOLINE_TABLE=''
 FFI_EXEC_TRAMPOLINE_TABLE_FALSE=''
-FFI_EXEC_TRAMPOLINE_TABLE_TRUE='#'
+FFI_EXEC_TRAMPOLINE_TABLE_TRUE=''
 FGREP='/bin/grep -F'
 GREP='/bin/grep'
-HAVE_LONG_DOUBLE='1'
-HAVE_LONG_DOUBLE_VARIANT='0'
+HAVE_LONG_DOUBLE=''
+HAVE_LONG_DOUBLE_VARIANT=''
 INSTALL_DATA='${INSTALL} -m 644'
 INSTALL_PROGRAM='${INSTALL}'
 INSTALL_SCRIPT='${INSTALL}'
 INSTALL_STRIP_PROGRAM='$(install_sh) -c -s'
-LD='/usr/bin/x86_64-linux-gnu-ld'
-LDFLAGS=''
-LIBFFI_BUILD_VERSIONED_SHLIB_FALSE='#'
-LIBFFI_BUILD_VERSIONED_SHLIB_GNU_FALSE='#'
+LD='/usr/bin/x86_64-linux-gnu-ld -m elf_x86_64'
+LDFLAGS=' -static'
+LIBFFI_BUILD_VERSIONED_SHLIB_FALSE=''
+LIBFFI_BUILD_VERSIONED_SHLIB_GNU_FALSE=''
 LIBFFI_BUILD_VERSIONED_SHLIB_GNU_TRUE=''
 LIBFFI_BUILD_VERSIONED_SHLIB_SUN_FALSE=''
-LIBFFI_BUILD_VERSIONED_SHLIB_SUN_TRUE='#'
+LIBFFI_BUILD_VERSIONED_SHLIB_SUN_TRUE=''
 LIBFFI_BUILD_VERSIONED_SHLIB_TRUE=''
 LIBOBJS=''
 LIBS=''
@@ -1271,9 +555,9 @@ LIPO=''
 LN_S='ln -s'
 LTLIBOBJS=''
 LT_SYS_LIBRARY_PATH=''
-MAINT='#'
+MAINT=''
 MAINTAINER_MODE_FALSE=''
-MAINTAINER_MODE_TRUE='#'
+MAINTAINER_MODE_TRUE=''
 MAKEINFO='${SHELL} /mnt/c/Users/Albert/Documents/workspace/flexible-jekyll/vendor/bundle/gems/ffi-1.9.25/ext/ffi_c/libffi/missing makeinfo'
 MANIFEST_TOOL=':'
 MKDIR_P='/bin/mkdir -p'
@@ -1281,7 +565,7 @@ NM='/usr/bin/nm -B'
 NMEDIT=''
 OBJDUMP='objdump'
 OBJEXT='o'
-OPT_LDFLAGS='-Wl,-O1 '
+OPT_LDFLAGS=''
 OTOOL64=''
 OTOOL=''
 PACKAGE='libffi'
@@ -1299,10 +583,10 @@ SED='/bin/sed'
 SET_MAKE=''
 SHELL='/bin/bash'
 STRIP='strip'
-TARGET='X86_64'
-TARGETDIR='x86'
-TARGET_OBJ=' src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffiw64.lo src/x86/win64.lo'
-TESTSUBDIR_FALSE='#'
+TARGET=''
+TARGETDIR=''
+TARGET_OBJ=''
+TESTSUBDIR_FALSE=''
 TESTSUBDIR_TRUE=''
 VERSION='3.99999'
 ac_ct_AR='ar'
@@ -1310,7 +594,7 @@ ac_ct_CC='gcc'
 ac_ct_CXX='g++'
 ac_ct_DUMPBIN=''
 am__EXEEXT_FALSE=''
-am__EXEEXT_TRUE='#'
+am__EXEEXT_TRUE=''
 am__fastdepCCAS_FALSE=''
 am__fastdepCCAS_TRUE='#'
 am__fastdepCC_FALSE=''
@@ -1335,7 +619,7 @@ datadir='${datarootdir}'
 datarootdir='${prefix}/share'
 docdir='${datarootdir}/doc/${PACKAGE_TARNAME}'
 dvidir='${docdir}'
-exec_prefix='${prefix}'
+exec_prefix='NONE'
 host='x86_64-pc-linux-gnu'
 host_alias=''
 host_cpu='x86_64'
@@ -1353,21 +637,21 @@ mandir='${datarootdir}/man'
 mkdir_p='$(MKDIR_P)'
 oldincludedir='/usr/include'
 pdfdir='${docdir}'
-prefix='/usr/local'
+prefix='NONE'
 program_transform_name='s,x,x,'
 psdir='${docdir}'
 runstatedir='${localstatedir}/run'
 sbindir='${exec_prefix}/sbin'
 sharedstatedir='${prefix}/com'
-sys_symbol_underscore='no'
+sys_symbol_underscore=''
 sysconfdir='${prefix}/etc'
 target='x86_64-pc-linux-gnu'
 target_alias=''
 target_cpu='x86_64'
 target_os='linux-gnu'
 target_vendor='pc'
-toolexecdir='${exec_prefix}/lib/gcc-lib/$(target_alias)'
-toolexeclibdir='${exec_prefix}/lib/../lib'
+toolexecdir=''
+toolexeclibdir=''
 
 ## ----------- ##
 ## confdefs.h. ##
@@ -1394,26 +678,6 @@ toolexeclibdir='${exec_prefix}/lib/../lib'
 #define HAVE_UNISTD_H 1
 #define HAVE_DLFCN_H 1
 #define LT_OBJDIR ".libs/"
-#define SIZEOF_SIZE_T 8
-#define HAVE_SYS_MMAN_H 1
-#define HAVE_MMAP 1
-#define HAVE_MKOSTEMP 1
-#define HAVE_MMAP_FILE 1
-#define HAVE_MMAP_DEV_ZERO 1
-#define HAVE_MMAP_ANON 1
-#define STDC_HEADERS 1
-#define HAVE_MEMCPY 1
-#define HAVE_ALLOCA_H 1
-#define HAVE_ALLOCA 1
-#define SIZEOF_DOUBLE 8
-#define SIZEOF_LONG_DOUBLE 16
-#define HAVE_LONG_DOUBLE 1
-#define HAVE_AS_CFI_PSEUDO_OP 1
-#define HAVE_AS_X86_PCREL 1
-#define HAVE_AS_X86_64_UNWIND_SECTION_TYPE 1
-#define HAVE_RO_EH_FRAME 1
-#define EH_FRAME_FLAGS "a"
-#define HAVE_HIDDEN_VISIBILITY_ATTRIBUTE 1
-#define LIBFFI_GNU_SYMBOL_VERSIONING 1
 
-configure: exit 0
+configure: caught signal 2
+configure: exit 1

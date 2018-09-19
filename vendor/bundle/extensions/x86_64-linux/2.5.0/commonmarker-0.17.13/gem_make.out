@@ -1,5 +1,5 @@
 current directory: /mnt/c/Users/Albert/Documents/workspace/flexible-jekyll/vendor/bundle/gems/commonmarker-0.17.13/ext/commonmarker
-/usr/bin/ruby2.5 -r ./siteconf20180919-31643-1ftyz3q.rb extconf.rb
+/usr/bin/ruby2.5 -r ./siteconf20180919-14906-lmqou.rb extconf.rb
 creating Makefile
 
 current directory: /mnt/c/Users/Albert/Documents/workspace/flexible-jekyll/vendor/bundle/gems/commonmarker-0.17.13/ext/commonmarker
@@ -67,4 +67,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: /mnt/c/Users/Albert/Documents/workspace/flexible-jekyll/vendor/bundle/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20180919-31643-1n7wthg/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20180919-14906-1fb20ss/commonmarker
