@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bus Time BCN
-date: 2018-09-19 13:32:20 +0300
+date: 2018-09-19 12:00:20 +0300
 description: Brief explanation about Time Bus BCN Android app
 img: time-bus-icon.png # Add image post (optional)
 fig-caption: time-bus-main.jpg# Add figcaption (optional)

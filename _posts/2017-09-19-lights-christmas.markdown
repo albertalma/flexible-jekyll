@@ -7,28 +7,32 @@ img: light-santa.png_large # Add image post (optional)
 fig-caption: light-santa.png_large# Add figcaption (optional)
 tags: [Video Games, Game Development, Cocos2D, Christmas]
 ---
-Bus Time BCN was an Android application that I developed during my senior year in college.
+Lights Christmas was going to be a mobile game based on the concept of the Lights Out game.
 
-## How it started?
-The idea started because at that moment the official application that was on the market was only an app where you put a code and it retrieved you the arrival time for the buses, but in my case I was used to use different bus stops so that mean different codes and no way to save them on the application.
+![Lights Out]({{site.baseurl}}/assets/img/lights-out-example.png)
 
-![Original AMB application]({{site.baseurl}}/assets/img/temps-bus-original.jpg)
-*Original AMB application*
+> Lights Out is an electronic game released by Tiger Electronics in 1995. The game consists of a 5 by 5 grid of lights. When the game starts, a random number or a stored pattern of these lights is switched on. Pressing any of the lights will toggle it and the adjacent lights. The goal of the puzzle is to switch all the lights off, preferably in as few button presses as possible.
 
-This is when I started looking for open data services or something in order to make an application that was simple but still a bit more useeful than the current one.
 
-## The final application
-The first version of the application was released at beginning of October 2013. It was an application that fulfill its purpose, with it the users where able to check the arrival time of the buses and also save the stops that they want with a name.
+## The idea
+The idea was to make a mobile game using the Lights Out mechanics adding some extras such as a saga map, lifes for playing, ads... And over this add a christmas layer to use as story.
 
-After a couple of months I started to notice that the number of users where starting to grow more and more and at that moment I decided to ask for a proper design for it.
+[![Prototype image]({{site.baseurl}}/assets/img/lights-level.jpg)](https://twitter.com/i/status/924367090148102144 "Win Level")
 
-![Main Screen]({{site.baseurl}}/assets/img/time-bus-main.jpg)
+*Video of winning a level*
 
-![Save Screen]({{site.baseurl}}/assets/img/time-bus-save.jpg)
+## The story & mechanics
+The main plot of the game was that Santa needed help because the Grinch was causing trouble (again) and in each level the user was going to have different challenges in order to help him.
 
-![Show Screen]({{site.baseurl}}/assets/img/time-bus-show.jpg)
-*Screenshots of Time Bus BCN*
+For example the first level (tutorial) was supposed to be that Santa had lost the tree balls and the user must help him "founding" them. So in order to "find it", the user must solve a Lights Out challenge and so on on the differents levels, where the user was supposed to help with christmas candies, candles, ice, among other christmas typical objects.
+
+[![Santa Help]({{site.baseurl}}/assets/img/santa-help.PNG)](https://twitter.com/i/status/934874253786304518 "Help Santa")
+
+*Video example of the first level*
 
 # Conclusion
-This was the first project that I embrace by my own and was really fun and interesting. 
-It was working for almost 5 year and it was used for more than 3000 users but at June 2018 I was focusing myself on other projects so I decided to close the application.
+Lights Christmas was a big project that involved a team of 4 people: 2 developers, a game designer and an artist. The game was done using Cocos2D and was supposed to be released during Christmas 2017-2018.
+
+Unafortunately even that the main mechanics (Lights out mechanics, life system, ads, level definition with JSON...) were finished there was no enough time to add a proper christmas layer or a proper design for the game in order to be released that christmas. After that all the team decided to postpone the release of it.
+
+The current status of the game is canceled.
