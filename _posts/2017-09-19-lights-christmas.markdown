@@ -17,7 +17,7 @@ Lights Christmas was going to be a mobile game based on the concept of the Light
 ## The idea
 The idea was to make a mobile game using the Lights Out mechanics adding some extras such as a saga map, lifes for playing, ads... And over this add a christmas layer to use as story.
 
-[![Prototype image]({{site.baseurl}}/assets/img/lights-level.jpg)](https://twitter.com/i/status/924367090148102144 "Win Level")
+[![Prototype image]({{site.baseurl}}/assets/img/lights-level-play.jpg)](https://twitter.com/i/status/924367090148102144 "Win Level")
 
 *Video of winning a level*
 
@@ -26,7 +26,7 @@ The main plot of the game was that Santa needed help because the Grinch was caus
 
 For example the first level (tutorial) was supposed to be that Santa had lost the tree balls and the user must help him "founding" them. So in order to "find it", the user must solve a Lights Out challenge and so on on the differents levels, where the user was supposed to help with christmas candies, candles, ice, among other christmas typical objects.
 
-[![Santa Help]({{site.baseurl}}/assets/img/santa-help.PNG)](https://twitter.com/i/status/934874253786304518 "Help Santa")
+[![Santa Help]({{site.baseurl}}/assets/img/santa-help-play.PNG)](https://twitter.com/i/status/934874253786304518 "Help Santa")
 
 *Video example of the first level*
 
