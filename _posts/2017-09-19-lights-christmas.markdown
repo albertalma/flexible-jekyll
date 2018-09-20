@@ -26,7 +26,7 @@ The main plot of the game was that Santa needed help because the Grinch was caus
 
 For example the first level (tutorial) was supposed to be that Santa had lost the tree balls and the user must help him "founding" them. So in order to "find it", the user must solve a Lights Out challenge and so on on the differents levels, where the user was supposed to help with christmas candies, candles, ice, among other christmas typical objects.
 
-[![Santa Help]({{site.baseurl}}/assets/img/santa-help-play.PNG)](https://twitter.com/i/status/934874253786304518 "Help Santa")
+[![Santa Help]({{site.baseurl}}/assets/img/santa-help-play.png)](https://twitter.com/i/status/934874253786304518 "Help Santa")
 
 *Video example of the first level*
 
