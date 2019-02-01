@@ -1,0 +1,72 @@
+---
+layout: post
+title: Shinrin (Prototype)
+date: 2018-12-28 17:32:20 +0300
+description: Shinrin (Pang clone)
+img: shinrin-img.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Shinrin, Game Development, Indie Dev, Pang, Unity3D]
+---
+
+*Join Shinrin in her adventure to save the forest*
+---------------------
+
+## About
+
+Shinrin (prototype name) is a 2d arcade game where you will a join a young girl through a magic forest where something is happening and seems that their habitants need your help.
+
+The current game is thought to be played on mobile devices and its core mechanics are based on the classic "Pang" where you have things bouncing around the screen and you should shoot them vertically.
+
+Current game is in a really early stage and everything shown here can be really different in the final stage.
+
+## Our main Character
+"Shinrin" is a young girl that don't know how, but has woken up on a strange forest. Where a magical friend has give her a water gun to defend herself and protect the forest.
+
+![First Concept Art of Shinrin]({{site.baseurl}}/assets/img/shinrin/girl.png)
+*First Concept Art of Shinrin*
+
+## The Game
+
+## Levels
+
+Shinrin progression is going to be through levels where the players need to kill all the enemies in order to pass to the next one.
+
+In each level the enemies are going to be appearing through waves and through different locations of the scene.
+
+![]({{site.baseurl}}/assets/img/shinrin/Screenshot_20190131-154233.png)
+
+![]({{site.baseurl}}/assets/img/shinrin/Screenshot_20190131-155134.png)
+*Current in-game screenshots*
+
+### Mechanics
+
+The game mechanics are supposed to be very simple, in the end the player is going to be able to move from right to left across the screen and shoot vertically to kill the enemies.
+
+Since the game is being thought for mobile devices we are thinking on different types of controls in order to find the better way to enjoy the game. Right now we have this three type of controls:
+* Arrows: On the game screen there will be two buttons like a pad for going right and left.
+* Joystick: Use a joystick on the game screen in order to go right or left.
+* Automatic: The character moves right or left depending which side of the screen you press (shots automatically).
+
+## Extras
+
+Among the core mechanics the game is going to include different extras like:
+* Boss Levels
+* In-game boosters and helpers
+* Leaderboards
+* ...
+
+![]({{site.baseurl}}/assets/img/shinrin/Screenshot_20190131-154416.png)
+*Current in-game leaderboard after finishing a level*
+
+# The challenge & the team
+Currently there is a lot of work going on and we expect to have a proper demo during this year.
+
+Right now we are a team of 3 people composed by:
+
+* Marta Almà: Concept Artist & Animator
+* Pablo Deiver: Concep Artist & Ilustrator
+* Albert Almà: Game Design & Game Development
+
+If you would like to try the current game or just want to be updated on future news, please don't hesitate to contact us.
+
+*We will kepp you updated on future updates!*
